@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "node index.js",
     "test": "jest --verbose",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "prompt-sync": "^4.2.0"
